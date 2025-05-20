@@ -1,0 +1,33 @@
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .box {
+    background-color: #0a1f44;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  .box button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+  }
+  
+  .review {
+    background-color: white;
+    color: black;
+  }
+  .review .stars {
+    font-size: 20px;
+  }

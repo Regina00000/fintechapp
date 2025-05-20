@@ -1,0 +1,76 @@
+.form-container {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.1);
+  }
+  
+  .tab-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .active-tab {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select, input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #2c3e50;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .input-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border: 2px solid #2c3e50;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .input-icon span {
+    font-weight: bold;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .back-btn, .pay-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .back-btn {
+    border: 1px solid #2c3e50;
+    background: white;
+  }
+  
+  .pay-btn {
+    border: none;
+    background: #00008b;
+    color: white;
+  }

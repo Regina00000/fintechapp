@@ -1,0 +1,112 @@
+.transaction-list {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex: 1;
+   
+  }
+  
+  .list-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .list-tabs {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .tab {
+    background: none;
+    border: none;
+    padding: 8px 0;
+    font-size: 16px;
+    color: #64748b;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .tab.active {
+    color: #0c1d36;
+    font-weight: 600;
+  }
+  
+  .tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #1e40af;
+  }
+  
+  .export-button {
+    background: none;
+    border: none;
+    color: #1e40af;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .transactions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #f8fafc;
+    border-radius: 8px;
+  }
+  
+  .transaction-method {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .method-icon {
+    font-size: 20px;
+  }
+  
+  .method-name {
+    font-weight: 600;
+    color: #0c1d36;
+  }
+  
+  .method-time {
+    color: #64748b;
+    font-size: 14px;
+  }
+  
+  .transaction-id {
+    color: #64748b;
+    font-size: 14px;
+  }
+  
+  .transaction-amount {
+    font-weight: 600;
+  }
+  
+  .transaction-status {
+    font-weight: 600;
+  }
+  
+  .transaction-item.pending .transaction-status {
+    color: #f59e0b;
+  }
+  
+  .transaction-item.approved .transaction-status {
+    color: #10b981;
+  }
+  
+  .transaction-item.declined .transaction-status {
+    color: #ef4444;
+  }
